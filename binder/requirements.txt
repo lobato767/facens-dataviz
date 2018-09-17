@@ -1,1 +1,9 @@
+jupyterlab
 beakerx
+ipywidgets
+pandas
+matplotlib
+plotly
+portiapy
+jupyter_contrib_nbextensions
+jupyterlab_launcher
