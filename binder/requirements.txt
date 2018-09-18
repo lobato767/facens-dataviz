@@ -1,5 +1,5 @@
 jupyterlab
-beakerx
+#beakerx
 ipywidgets
 pandas
 matplotlib
