@@ -23,5 +23,5 @@ Get started cloning the repository withing a Jupyter environment or via:
 [![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/matheusmota/dataviz2018/master?urlpath=rstudio)
 
 * RShiny:   
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/matheusmota/dataviz2018/master?urlpath=shiny/bus-dashboard/)
+[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/matheusmota/dataviz2018/master?urlpath=shiny)
 
