@@ -6,8 +6,15 @@ jupyterlab-git
 
 pandas
 numpy
+quilt
+requests
 
 ipywidgets
 
 matplotlib
 plotly
+seaborn
+
+
+#scikit-learn
+#scipy
