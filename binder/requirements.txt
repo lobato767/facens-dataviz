@@ -2,7 +2,7 @@ jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
-#beakerx
+beakerx
 
 pandas
 numpy
