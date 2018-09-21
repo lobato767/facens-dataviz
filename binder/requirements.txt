@@ -2,6 +2,7 @@ jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
+jupyterlab_plotly
 #beakerx
 
 pandas

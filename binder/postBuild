@@ -1,17 +1,29 @@
 #!/bin/bash
 
+#Beaker
 #beakerx install
 #jupyter labextension install beakerx-jupyterlab --dev
 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --dev
+
 jupyter labextension install @jupyterlab/git
 jupyter serverextension enable --py jupyterlab_git
+
 jupyter labextension install @jupyterlab/github
+
 jupyter labextension install jupyterlab-drawio
 
+# Rise for Notebook (presentation mode)
 jupyter-nbextension install rise --py --sys-prefix
 jupyter-nbextension enable  rise --py --sys-prefix
 jupyter labextension install jupyterlab_rise
+
+# Plotly For JupyterLab
+jupyter labextension install --symlink --py --sys-prefix jupyterlab_plotly
+jupyter labextension enable --py --sys-prefix jupyterlab_plotly
+# Plotly For Notebook
+jupyter nbextension install --symlink --py --sys-prefix jupyterlab_plotly
+jupyter nbextension enable --py --sys-prefix jupyterlab_plotly
 
 jupyter lab build
 
