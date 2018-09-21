@@ -19,11 +19,7 @@ jupyter-nbextension enable  rise --py --sys-prefix
 jupyter labextension install jupyterlab_rise
 
 # Plotly For JupyterLab
-jupyter labextension install --symlink --py --sys-prefix jupyterlab_plotly
-jupyter labextension enable --py --sys-prefix jupyterlab_plotly
-# Plotly For Notebook
-jupyter nbextension install --symlink --py --sys-prefix jupyterlab_plotly
-jupyter nbextension enable --py --sys-prefix jupyterlab_plotly
+jupyter labextension install @jupyterlab/plotly-extension
 
 jupyter lab build
 
