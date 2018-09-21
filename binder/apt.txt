@@ -1,0 +1,6 @@
+mosquitto
+mosquitto-clients  
+htop
+vim
+curl
+wget
