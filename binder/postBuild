@@ -28,5 +28,7 @@ jupyter labextension install @jupyterlab/toc
 
 # Building everything
 jupyter lab build
+jupyter labextension update --all
+
 
 rm conda-bld -R
