@@ -1,9 +1,8 @@
-jupyterlab==0.34.10
-
+beakerx
+jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
-beakerx
 
 # data structures and data analysis 
 pandas
