@@ -6,8 +6,7 @@
    ports:
      - 3000:3000/tcp
    environment:
-     - GF_INSTALL_PLUGINS=grafana-clock-panel,briangann-gauge-panel,natel-plotly-panel,grafana-simple-
-json-datasource
+     - GF_INSTALL_PLUGINS=grafana-clock-panel,briangann-gauge-panel,natel-plotly-panel,grafana-simple-json-datasource
 
 
   influxdb:
@@ -18,8 +17,8 @@ json-datasource
      - "8086:8086"
      - "8090:8090"
 
-  prometheus:
-    ports:
-      - 9090:9090/tcp
-    image: prom/prometheus:v2.0.0
- 
+  telegraf:
+   image: telegraf:latest
+   container_name: telegraf
+   links:
+     - influxdb
