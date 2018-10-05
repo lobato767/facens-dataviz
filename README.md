@@ -24,5 +24,5 @@ Get started cloning the repository withing a Jupyter environment or via:
 
 * Docker:
   ```bash
-  docker run --rm -v `pwd`:/opt/app/data -p 8888:8888 matheusmota/dataviz2018.1 
+  docker run --rm -v `pwd`:/opt/app/data -p 8888:8888 matheusmota/dataviz2018
   ``` 
