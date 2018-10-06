@@ -31,4 +31,4 @@ jupyter lab build
 jupyter labextension update --all
 
 
-rm conda-bld -R
+
