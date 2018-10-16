@@ -26,6 +26,10 @@ jupyter labextension install @jupyterlab/plotly-extension
 # Table of contents Jupyter Lab Extension
 jupyter labextension install @jupyterlab/toc
 
+# A spell checker extension for markdown cells in jupyterlab notebooks. https://github.com/ijmbarr/jupyterlab_spellchecker
+jupyter labextension install @ijmbarr/jupyterlab_spellchecker
+
+
 # Building everything
 jupyter lab build
 
