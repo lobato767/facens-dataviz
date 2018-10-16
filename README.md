@@ -5,8 +5,8 @@ Associated examples and material of the discipline Data Vizualization.
 
 ## Important links 
 
-* [Slack]()
-* [Google Classroom]()
+* [Slack](https://data-science-facens.slack.com)
+* [Google Classroom](http://classroom.google.com/)
 
 ## Getting started with the exercises and examples
 
