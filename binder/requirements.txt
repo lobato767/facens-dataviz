@@ -1,5 +1,5 @@
 beakerx
-jupyterlab==0.34.12
+jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
