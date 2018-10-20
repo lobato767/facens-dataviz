@@ -21,6 +21,7 @@ RISE
 matplotlib
 plotly
 seaborn
+bs4
 
 # machine learning
 #scikit-learn
