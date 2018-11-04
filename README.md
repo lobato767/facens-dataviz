@@ -35,8 +35,15 @@ Get started by cloning this repository withing your own Jupyter environment or b
 
 ### Local
 
-* Local installation:  
-  Please follow [these instructions](http://jupyter.org/install) for installing and running Jupyter locally.
+* Local installation:   
+
+  * Installing Jupyter using **Anaconda**:
+    Please follow [these instructions](http://jupyter.org/install#installing-jupyter-using-anaconda) for installing and running Jupyter using Anaconda.
+    
+  * Installing Jupyter using **pip**:
+    Please follow [these instructions](jupyter.org/install#installing-jupyter-with-pip) for installing and running Jupyter using pip.
+  Alternatively, you may install Jupyter Lab by following (these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+    
 
 * Docker:
 
