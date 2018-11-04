@@ -12,7 +12,7 @@ Associated examples and material of the discipline Data Vizualization -- Data Sc
 ## Getting started
 
 Examples and exercises are presented as [Jupyter Notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). 
-Get started by cloning this repository withing your own Jupyter environment or launching an enviroment from cloud services 
+Get started by cloning this repository withing your own Jupyter environment or by launching a Jupyter enviroment from cloud services.
 
 ### Cloud Services
 
@@ -33,12 +33,17 @@ Get started by cloning this repository withing your own Jupyter environment or l
   * Jupyter Notebook:   
   [![Binder](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/github/matheusmota/dataviz2018)
 
-### Local / containerized alternatives
+### Local
 
-Please follow [these instructions](http://jupyter.org/install) for installing and running Jupyter locally.
+* Local installation:  
+  Please follow [these instructions](http://jupyter.org/install) for installing and running Jupyter locally.
 
-You may also run a Jupyter Lab instance as a Docker container. Try:
+* Docker:
 
+  * You can run a containerized instance of Jupyter Lab from our own Docker image. Try:
   ```bash
   docker run --rm -v `pwd`:/opt/app/data -p 8888:8888 matheusmota/dataviz2018
   ``` 
+  Access it by goint to http://0.0.0.0:8888
+  
+  * Feel free to use images from [this library of ready-to-run Docker images containing Jupyter](https://hub.docker.com/u/jupyter/). Do not forget to install dependencies (see the [binder]() folder)
