@@ -43,7 +43,7 @@ Get started by cloning this repository withing your own Jupyter environment or b
   * Installing Jupyter using **pip**:
     Please follow [these instructions](jupyter.org/install#installing-jupyter-with-pip) for installing and running Jupyter using pip.
     
-    Alternatively, you may install Jupyter Lab by following [these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
+  Alternatively, you may install Jupyter Lab by following [these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
     
 
 * Docker:
