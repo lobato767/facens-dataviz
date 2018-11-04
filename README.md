@@ -43,7 +43,7 @@ Get started by cloning this repository withing your own Jupyter environment or b
   * Installing Jupyter using **pip**:
     Please follow [these instructions](jupyter.org/install#installing-jupyter-with-pip) for installing and running Jupyter using pip.
     
-  Alternatively, you may install Jupyter Lab by following [these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+    Alternatively, you may install Jupyter Lab by following [these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
     
 
 * Docker:
@@ -52,7 +52,8 @@ Get started by cloning this repository withing your own Jupyter environment or b
     ```bash
     docker run --rm -v `pwd`:/opt/app/data -p 8888:8888 matheusmota/dataviz2018
     ``` 
-    Access it by goint to http://0.0.0.0:8888 
-    The *Dockerfiles* can be found [here](https://github.com/matheusmota/dataviz2018/tree/master/resources/docker/image).
+    Access it by goint to http://0.0.0.0:8888 .
+    
+    The *Dockerfile* can be found [here](https://github.com/matheusmota/dataviz2018/tree/master/resources/docker/image).
   
-  * Feel free to use images from [this library of ready-to-run Docker images containing Jupyter](https://hub.docker.com/u/jupyter/). Do not forget to install dependencies (see the [binder]() folder)
+  * Feel free to use images from [this library of ready-to-run Docker images containing Jupyter](https://hub.docker.com/u/jupyter/). Do not forget to install dependencies (see the [binder]() folder).
