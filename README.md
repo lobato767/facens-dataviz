@@ -1,4 +1,8 @@
-# Data Science FACENS - dataviz2018
+<div align="center">
+ <img src="https://raw.githubusercontent.com/matheusmota/dataviz2018/master/resources/images/logo_facens_pos.png" width="150px">
+</div>
+
+# Data Science FACENS - Data Visualization
 
 Associated examples and material of the discipline Data Vizualization -- Data Science Specialization Program -- FACENS.
 
