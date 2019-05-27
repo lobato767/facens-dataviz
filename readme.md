@@ -10,7 +10,7 @@ Associated examples and material of the discipline Data Vizualization -- Data Sc
 ## Important links 
 
 * [Slack](https://data-science-facens.slack.com)
-* [Google Classroom](http://classroom.google.com/)
+* [Canvas](https://facens.instructure.com/courses/2046)
 * [Kaggle](https://www.kaggle.com/dataviz2018)
 
 ## Getting started
