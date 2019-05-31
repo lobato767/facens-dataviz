@@ -3,4 +3,4 @@ vim
 curl
 wget
 nodejs
-openjdk-11-jdk
+openjdk-8-jdk
