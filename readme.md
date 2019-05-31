@@ -6,6 +6,16 @@
 
 Associated examples and material of the discipline Data Vizualization -- Data Science Specialization Program -- FACENS.
 
+<!-- MarkdownTOC autolink=true -->
+
+- [Important links](#important-links)
+- [Getting started](#getting-started)
+  - [Cloud Services](#cloud-services)
+  - [Local](#local)
+
+<!-- /MarkdownTOC -->
+
+
 
 ## Important links 
 
