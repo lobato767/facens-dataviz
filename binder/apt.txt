@@ -1,8 +1,6 @@
-mosquitto
-mosquitto-clients  
 htop
 vim
 curl
 wget
-nodejs
-openjdk-8-jdk
+#nodejs
+#openjdk-8-jdk
