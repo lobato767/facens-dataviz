@@ -68,8 +68,15 @@ Get started by cloning this repository within your own Jupyter environment or by
 
   * You can run a containerized instance of Jupyter Lab from [our own Docker image](https://hub.docker.com/r/matheusmota/facens-dataviz/). Try:
     ```bash
-    docker run --rm -v `pwd`:/opt/app/data -p 8888:8888 matheusmota/facens-dataviz
+    docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
     ``` 
+    
+Alternatively, you can map you local home folder into the container:
+
+    ```bash
+    docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
+    ``` 
+    
     Access it by going to [http://0.0.0.0:8888](http://0.0.0.0:8888). The *Dockerfile* used to build the image can be found [here](https://github.com/matheusmota/facens-dataviz/tree/master/resources/docker/image).
   
   * Feel free to use images from [this library of ready-to-run Docker images containing Jupyter](https://hub.docker.com/u/jupyter/). Do not forget to install dependencies (see the [binder]() folder).
