@@ -9,6 +9,8 @@ RUN apt-get update && \
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
 	apt-get install -y nodejs
 
+WORKDIR /jupyter/data/
+
 # building the repo
 RUN git clone https://github.com/matheusmota/facens-dataviz
 RUN pip3 install -r facens-dataviz/binder/requirements.txt
@@ -17,7 +19,6 @@ RUN sh facens-dataviz/binder/postBuild
 
 ENV LANG=C.UTF-8
 
-# Expose Jupyter port & cmd
 EXPOSE 8888
-RUN mkdir -p /opt/app/data && cp  facens-dataviz  /opt/app/data/ -r
-CMD jupyter lab --ip=* --port=8888 --no-browser --notebook-dir=/opt/app/data --allow-root
+
+CMD jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=/jupyter/data --allow-root --NotebookApp.token=''

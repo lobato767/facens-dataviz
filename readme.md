@@ -16,8 +16,8 @@ Associated examples and material of the discipline Data Vizualization -- Data Sc
     - [MyBinder \(project BinderHub\)](#mybinder-project-binderhub)
     - [Google Colaboratory](#google-colaboratory)
   - [Locally](#locally)
-    - [System installation](#system-installation)
-    - [Docker](#docker)
+    - [Local installation](#local-installation)
+    - [Using Docker](#using-docker)
 
 <!-- /MarkdownTOC -->
 
@@ -55,7 +55,7 @@ Get started by cloning this repository within your own Jupyter environment or by
 
 ### Locally
 
-#### System installation   
+#### Local installation   
 
   * Please follow [these instructions](http://jupyter.org/install#installing-jupyter-using-anaconda) for installing and running Jupyter using **Anaconda**.
     
@@ -64,19 +64,19 @@ Get started by cloning this repository within your own Jupyter environment or by
    Alternatively, you may install Jupyter Lab by following [these instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html).
     
 
-#### Docker
+#### Using Docker
 
-  * You can run a containerized instance of Jupyter Lab from [our own Docker image](https://hub.docker.com/r/matheusmota/facens-dataviz/). Try:
+You can run a containerized instance of Jupyter Lab from [our own Docker image](https://hub.docker.com/r/matheusmota/facens-dataviz/). Try:
   
-    ```bash
-    docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
-    ``` 
-    
+```bash
+docker run --rm -p 8888:8888 matheusmota/facens-dataviz
+``` 
+
 Alternatively, you can map you local home folder into the container:
 
-    ```bash
-    docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
-    ``` 
+```bash
+docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
+``` 
 
 Access the Jupyter Lab server by going to [http://0.0.0.0:8888](http://0.0.0.0:8888). 
 
