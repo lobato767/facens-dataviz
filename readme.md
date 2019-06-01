@@ -69,13 +69,13 @@ Get started by cloning this repository within your own Jupyter environment or by
 You can run a containerized instance of Jupyter Lab from [our own Docker image](https://hub.docker.com/r/matheusmota/facens-dataviz/). Try:
   
 ```bash
-docker run --rm -p 8888:8888 matheusmota/facens-dataviz
+docker run -it -p 8888:8888 matheusmota/facens-dataviz
 ``` 
 
 Alternatively, you can map you local home folder into the container:
 
 ```bash
-docker run --rm -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
+docker run -it -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
 ``` 
 
 Access the Jupyter Lab server by going to [http://0.0.0.0:8888](http://0.0.0.0:8888). 

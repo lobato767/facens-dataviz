@@ -21,4 +21,6 @@ ENV LANG=C.UTF-8
 
 EXPOSE 8888
 
+RUN rm conda-bld -R
+
 CMD jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --notebook-dir=/jupyter/data --allow-root --NotebookApp.token=''
