@@ -1,4 +1,8 @@
+
+# beakerx and deps
 beakerx
+py4j
+
 jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
