@@ -81,5 +81,17 @@ docker run -it -v `pwd`:/jupyter/data/ -p 8888:8888 matheusmota/facens-dataviz
 Access the Jupyter Lab server by going to [http://0.0.0.0:8888](http://0.0.0.0:8888). 
 
 The *Dockerfile* used to build the image can be found [here](https://github.com/matheusmota/facens-dataviz/tree/master/resources/docker/image).
+
+
+Alternative #3: repo2docker
+
+```
+repo2docker -p 8888:8888 -v `pwd`:`pwd`  https://github.com/matheusmota/facens-dataviz  jupyter-lab --ip 0.0.0.0 --NotebookApp.token=''
+
+```
+
+Access the Jupyter Lab server by going to [http://0.0.0.0:8888/lab](http://0.0.0.0:8888). 
+
+
   
   * Feel free to use images from [this library of ready-to-run Docker images containing Jupyter](https://hub.docker.com/u/jupyter/). Do not forget to install dependencies (see the [binder]() folder).
