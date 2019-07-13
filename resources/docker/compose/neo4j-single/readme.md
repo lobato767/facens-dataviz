@@ -14,16 +14,16 @@ CREATE (n:Person)
 ```
 
 ```
-CREATE (n:Person:Professor),(n:Person:Student)
+CREATE (n:Person:Professor),(u:Person:Student)
 ```
 
 ```
-CREATE (n:Person:Professor { name: 'Asdrubal', cpf: '1111155554' })
+CREATE (n:Person:Student { name: 'Asdrubal', cpf: '1111155554' })
 ```
 
 ```
 CREATE (n:Person:Professor { name: 'Doriana', cpf: '888888777778' })
-RETURN a.name
+RETURN n.name
 ```
 
 
