@@ -3,11 +3,14 @@
 beakerx
 py4j
 
+#jupyter/jupyterlab plugins/extensions
 jupyterlab
 jupyter_contrib_nbextensions
 jupyterlab_launcher
 jupyterlab-git
-jupyterlab_iframe
+#jupyterlab_iframe
+ipywidgets
+RISE
 
 # data structures and data analysis 
 pandas
@@ -18,9 +21,6 @@ quilt
 
 # http tools
 requests
-
-ipywidgets
-RISE
 
 # data viz
 matplotlib
