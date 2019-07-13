@@ -29,6 +29,11 @@ jupyter serverextension enable --py jupyterlab_iframe
 # # Table of contents Jupyter Lab Extension
  jupyter labextension install @jupyterlab/toc
 
+#jupyter/jupyterlab proxy
+jupyter serverextension enable --sys-prefix jupyter_server_proxy
+jupyter labextension install jupyterlab-server-proxy
+jupyter labextension install jupyterlab_voyager
+
 # # A spell checker extension for markdown cells in jupyterlab notebooks. https://github.com/ijmbarr/jupyterlab_spellchecker
 # jupyter labextension install @ijmbarr/jupyterlab_spellchecker
 
