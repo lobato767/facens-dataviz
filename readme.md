@@ -4,7 +4,7 @@
 
 # Data Science FACENS - Data Visualization
 
-Associated examples and material of the discipline Data Vizualization -- Data Science Specialization Program -- FACENS.
+Associated examples and material of the discipline Data Visualization -- Data Science Specialization Program -- FACENS.
 
 ## Table of contents
 
@@ -12,7 +12,7 @@ Associated examples and material of the discipline Data Vizualization -- Data Sc
 
 - [Resources](#resources)
 - [Running Examples & Exercises](#running-examples--exercises)
-  - [Via Cloud Services](#via-cloud-services)
+  - [Cloud Services](#cloud-services)
     - [MyBinder \(project BinderHub\)](#mybinder-project-binderhub)
     - [Google Colaboratory](#google-colaboratory)
   - [Locally](#locally)
@@ -32,9 +32,9 @@ Associated examples and material of the discipline Data Vizualization -- Data Sc
 ## Running Examples & Exercises
 
 Examples and exercises are presented as [Jupyter Notebooks](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html). 
-Get started by cloning this repository within your own Jupyter environment or by launching a Jupyter enviroment from cloud services.
+Get started by cloning this repository within your own Jupyter environment or by launching a Jupyter environment from cloud services.
 
-### Via Cloud Services
+### Cloud Services
 
 #### [MyBinder](http://mybinder.org/) (project [BinderHub](https://github.com/jupyterhub/binderhub))
 
