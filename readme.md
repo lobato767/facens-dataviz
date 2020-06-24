@@ -1,3 +1,7 @@
+Moved to https://github.com/thedatasociety/lab-dataviz
+
+<hr>
+
 <div align="center">
  <img src="https://raw.githubusercontent.com/matheusmota/facens-dataviz/master/resources/images/logo_facens_pos.png" width="150px">
 </div>
